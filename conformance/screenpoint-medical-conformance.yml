@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://screenpoint-medical.com/security-reporting
+standards:
+- id: iso-27001
+  conforms: aligned
+  evidence: 'Security program stated as aligned with ISO/IEC 27001 standards on the
+    security-reporting page (not a certification claim).'
+- id: fda-510k
+  conforms: true
+  evidence: 'Transpara FDA cleared (K241831, K232096) for 2D and 3D mammography.'
+- id: ce-mark
+  conforms: true
+  evidence: 'Transpara CE marked (0344) for 2D and 3D mammography.'

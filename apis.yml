@@ -1,8 +1,27 @@
 aid: screenpoint-medical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/screenpoint-medical.png
 name: ScreenPoint Medical
-description: 'ScreenPoint Medical is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'ScreenPoint Medical is a Netherlands-based healthcare AI company, founded
+  in 2014 by Professor Nico Karssemeijer and Professor Sir Michael Brady, that develops
+  Transpara Breast AI for earlier detection of breast cancer in 2D (FFDM) and 3D (DBT)
+  mammography. Transpara is vendor-agnostic, integrates into PACS and reading workflows
+  via medical-imaging (DICOM) pipelines rather than a public developer API, and is
+  FDA cleared (K241831, K232096) and CE marked (0344). The product is used in over
+  200 clinics across 25+ countries and is backed by three randomized controlled trials
+  (including MASAI in The Lancet). The company is backed by Insight Partners. This
+  profile was enriched by the API Evangelist pipeline: no public developer/API surface
+  exists, but real security-disclosure and compliance posture were captured.'
 url: https://raw.githubusercontent.com/api-evangelist/screenpoint-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Artificial Intelligence
+- Medical Imaging
+- Mammography
+- Breast Cancer
+- Radiology
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://screenpoint-medical.com/
+- type: Blog
+  url: https://screenpoint-medical.com/insights
+- type: PrivacyPolicy
+  url: https://screenpoint-medical.com/privacy-policy-screenpoint-medical
+- type: Security
+  url: https://screenpoint-medical.com/security-reporting
+- type: Compliance
+  url: https://screenpoint-medical.com/security-reporting
+- type: VulnerabilityDisclosure
+  url: security/screenpoint-medical-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/screenpoint-medical-domain-security.yml
+- type: Conformance
+  url: conformance/screenpoint-medical-conformance.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
