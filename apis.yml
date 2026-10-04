@@ -51,7 +51,7 @@ tags:
 - Mammography
 - Breast Cancer
 - Radiology
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Healthcare
@@ -61,6 +61,7 @@ tags_raw:
 - Breast Cancer
 - Radiology
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
